@@ -1,0 +1,177 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <DockPanel LastChildFill="false" DockPanel.Dock="Top" Background="#FF0577D1">
+            <Border Width="40" DockPanel.Dock="Left" >
+                <Border.Background>
+                    <ImageBrush ImageSource="Снимок1.PNG"/>
+                </Border.Background>
+            </Border>
+            <Button Width="70" DockPanel.Dock="Left" Background="#FF2A7EE2" Foreground="#FFE8DFDF" BorderBrush="#FF0178D4">SharePoint</Button>
+            <Border Width="25" DockPanel.Dock="Right">
+                <Border.Background>
+                    <ImageBrush ImageSource="Снимок6.PNG"/>
+                </Border.Background>
+            </Border>
+            <Button Width="25" DockPanel.Dock="Right" BorderBrush="#FF2A7EE2">
+                <Button.Background>
+                    <ImageBrush ImageSource="Снимок5.PNG"/>
+                </Button.Background>
+            </Button>
+            <Button Width="25" DockPanel.Dock="Right" BorderBrush="#FF2A7EE2">
+                <Button.Background>
+                    <ImageBrush ImageSource="Снимок4.PNG"/>
+                </Button.Background>
+            </Button>
+            <Button Width="25" DockPanel.Dock="Right" BorderBrush="#FF0178D3">
+                <Button.Background>
+                    <ImageBrush ImageSource="Снимок3.PNG"/>
+                </Button.Background>
+            </Button>
+            <TextBox Width="170" DockPanel.Dock="Top" BorderThickness="1" BorderBrush="#FF2A7EE2" >
+                <TextBox.Background>
+                    <ImageBrush ImageSource="Снимок2.PNG"/>
+                </TextBox.Background>
+            </TextBox>
+
+        </DockPanel>
+        <DockPanel LastChildFill="false" DockPanel.Dock="Top" Background="#FF15717A">
+            <Border  Width="55" Height="50" DockPanel.Dock="Left" Margin ="20,0">
+                <Border.Background>
+                    <ImageBrush ImageSource="Снимок7.PNG"/>
+                </Border.Background>
+            </Border>
+            <Button Width="75" DockPanel.Dock="Left" Background="#FF157070" Foreground="#FFE8DFDF" FontSize="13" BorderBrush="#FF157070">SharePoint</Button>
+            <Button Width="70" DockPanel.Dock="Left" Background="#FF157070" Foreground="#FFE8DFDF" FontSize="9"  Margin="0,7,0,0" BorderBrush="#FF157070">Who we are ^</Button>
+            <Button Width="90" DockPanel.Dock="Left" Background="#FF157070" Foreground="#FFE8DFDF" FontSize="9" Margin="0,7,0,0" BorderBrush="#FF157070">What's happening ^</Button>
+            <Button Width="70" DockPanel.Dock="Left" Background="#FF157070" Foreground="#FFE8DFDF" FontSize="9" Margin="0,7,0,0" BorderBrush="#FF157070">Edit</Button>
+            <Button Width="90" DockPanel.Dock="Right" Background="#FF157070" Foreground="#FFE8DFDF" FontSize="9" Margin="0,7,0,0" BorderBrush="#FF157070">share site</Button>
+            <Button Width="90" DockPanel.Dock="Right" Background="#FF157070" Foreground="#FFE8DFDF" FontSize="9" Margin="0,7,0,0" BorderBrush="#FF157070">Not foloving</Button>
+        </DockPanel>
+        <DockPanel LastChildFill="false" DockPanel.Dock="Top" Background="#FFE8E8E8">
+            <Button Width="50" DockPanel.Dock="Left" Margin ="1" BorderBrush="#FFE8E8E8">
+                <Button.Background>
+                    <ImageBrush ImageSource="Снимок8.PNG"/>
+                </Button.Background>
+            </Button>
+            <Button Width="55"  DockPanel.Dock="Left" Margin ="1" BorderBrush="#FFE8E8E8">
+                <Button.Background>
+                    <ImageBrush ImageSource="Снимок9.PNG"/>
+                </Button.Background>
+            </Button>
+            <Button Width="50" Height="20" DockPanel.Dock="Right" Margin ="1" BorderBrush="#FFE8E8E8">
+                <Button.Background>
+                    <ImageBrush ImageSource="Снимок11.PNG"/>
+                </Button.Background>
+            </Button>
+            <Button Width="55" DockPanel.Dock="Right" Margin ="1" BorderBrush="#FFE8E8E8">
+                <Button.Background>
+                    <ImageBrush ImageSource="Снимок10.PNG"/>
+                </Button.Background>
+            </Button>
+        </DockPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Foreground="#FFECE7E7">
+            <ScrollViewer.BorderBrush>
+                <ImageBrush ImageSource="Снимок17.PNG"/>
+            </ScrollViewer.BorderBrush>
+            <ScrollViewer.Background>
+                <ImageBrush ImageSource="Снимок17.PNG"/>
+            </ScrollViewer.Background>
+            <StackPanel>
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="7*" ></ColumnDefinition>
+                            <ColumnDefinition Width="7*"></ColumnDefinition>
+                            <ColumnDefinition Width="4*"></ColumnDefinition>
+                            <ColumnDefinition Width="4*"></ColumnDefinition>
+                            
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Border  Grid.Column="0" Grid.Row="0"  Grid.RowSpan="2"   Grid.ColumnSpan="2"   Margin ="50,0,0,0">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок12.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border  Grid.Column="2" Grid.Row="0"  Margin ="5,1,1,1 ">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок13.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border  Grid.Column="2" Grid.Row="1" Margin ="5,1,1,1 ">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок14.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border  Grid.Column="3" Grid.Row="0"  Margin ="3,1,1,1 ">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок15.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border  Grid.Column="3" Grid.Row="1" Margin ="3,1,1,1 ">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок16.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border  Grid.Column="0" Grid.Row="3"  Margin ="50,20,3,1 ">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок20.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border  Grid.Column="1" Grid.Row="3" Margin ="0,20,3,1" >
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок21.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border  Grid.Column="2" Grid.Row="3" Margin ="0,20,3,1">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок22.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border  Grid.Column="3" Grid.Row="3" Margin ="0,20,3,1">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок23.PNG"/>
+                            </Border.Background>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Column="1">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition  Height="1*" ></RowDefinition>
+                            <RowDefinition Height="4*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="0"  Height="80" DockPanel.Dock="Left" Margin ="1" BorderBrush="#FFFFF8F8">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок24.PNG"/>
+                            </Border.Background>
+                        </Border>
+                        <Border Grid.Row="1"  Height="300" DockPanel.Dock="Left" Margin ="1" BorderBrush="#FFF3F3F3">
+                            <Border.Background>
+                                <ImageBrush ImageSource="Снимок19.PNG"/>
+                            </Border.Background>
+                        </Border>
+                      
+                    </Grid>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </DockPanel>
+
+</Window>
